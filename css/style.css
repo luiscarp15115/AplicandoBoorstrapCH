@@ -1,0 +1,52 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.titulo{
+    text-align: center !important;
+    text-decoration:underline;
+    color:rgb(68, 68, 68);
+    margin-top: 20px;
+}
+
+.color-link{
+    color: rgb(0, 0, 0) !important;
+    font-size: 16px;
+    background-color: rgb(230, 228, 228);
+}
+.space-link{
+    background-color: rgb(138, 148, 156);
+    margin: 10px;
+    border: 2px solid rgb(190, 189, 189);
+    border-radius: 4px;
+}
+.color-link:hover{
+    background-color: rgb(190, 189, 189);
+}
+.navbar-color{
+background-color: rgb(243, 243, 243) !important;
+}
+
+.align-bar{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.notices{
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #424242;
+    grid-area: pie;
+    color: white;
+    height: 10vh;
+    margin-top: 10px;
+    display: flex;
+    align-content:center;
+    justify-content:center;
+    align-items: center;
+}
